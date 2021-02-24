@@ -2,11 +2,11 @@ arch:
   - amd64
   - ppc64le
 os: linux
-go_import_path: https://gopkg.in/inf.v0
+go_import_path: gopkg.in/inf.v0
 language: go
 go:
   - 1.4
-  - 1.15
-  - tip
+#  - 1.15
+#  - tip
 after_script:
   - go test ./...
