@@ -4,8 +4,8 @@ arch:
 os: linux
 language: go
 go:
-  - 1.14
-  - 1.15
+  - 1.9
+  - 1.10
   - tip
 after_script:
   - go test ./...
