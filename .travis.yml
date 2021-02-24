@@ -5,7 +5,7 @@ os: linux
 go_import_path: gopkg.in/inf.v0
 language: go
 go:
-  - 1.4
+  - 1.14
 #  - 1.15
 #  - tip
 after_script:
