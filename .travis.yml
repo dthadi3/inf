@@ -8,5 +8,3 @@ go:
   - 1.14
   - 1.15
   - tip
-after_script:
-  - go test -v ./...
